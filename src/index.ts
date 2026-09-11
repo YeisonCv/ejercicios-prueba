@@ -1,4 +1,4 @@
-import { container } from "../config/container";
+import { container } from "./config/container";
 import { ICalculatorService } from "./services/interfaces/calculator.interface";
 import { PersonService } from "./services/person.service";
 

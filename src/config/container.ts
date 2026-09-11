@@ -1,8 +1,8 @@
 import {} from "awilix";
 
 import { asClass, asFunction, asValue, createContainer, InjectionMode } from "awilix";
-import { CalculatorService } from "../src/services/calculator.service";
-import { PersonService } from "../src/services/person.service";
+import { CalculatorService } from "../services/calculator.service";
+import { PersonService } from "../services/person.service";
 
 export const container = createContainer({
     injectionMode: InjectionMode.CLASSIC

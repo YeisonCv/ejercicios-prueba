@@ -7,7 +7,7 @@ test: {
     include: ["test/**/*.spec.ts"],
     coverage: {
         provider: "v8",
-        reporter: ["text", "html", "icov"],
+        reporter: ["text", "html", "lcov"],
         include: ["src/**/*.ts"],
         exclude: [
         ...defaultExclude,
